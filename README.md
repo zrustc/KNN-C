@@ -10,14 +10,15 @@ Official implementation of our paper "Improving Few-Shot Performance of Language
 ## Datasets
 
 We used the same datasets from Karimi Mahabadi et al. (ACL 2022). 
-We first obtain datasets via data pre-processing scripts in https://github.com/facebookresearch/perfect, and then follow cmd to construct datasets (set the right data path before running following scripts).
+We first obtain datasets via pre-processing data scripts in https://github.com/facebookresearch/perfect, then follow cmd to construct datasets.
+Note that set the correct data-path before running scripts.
 
 ```
 python3 tasks.py
 sh data_process.sh
 ```
 
-## Running
+## Training and Inference
 
 * Download the pre-trained models (e.g., roberta-large)
 * run ```sh task_run.sh```
